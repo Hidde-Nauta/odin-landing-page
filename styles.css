@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.bg-navy {
+    background-color: #1F2937;
+}
+
+.bg-gray {
+    background-color:#E5E7EB;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    display: flex;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
