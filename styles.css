@@ -7,12 +7,8 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-button {
+button, a {
     all: unset;
-}
-
-a {
-    text-decoration: none;
 }
 
 .bg-navy {
@@ -84,27 +80,8 @@ p, a {
     flex: 1;
 }
 
-/* RENAME */
-.p {
+.padding {
     padding: 0 5vw;
-    display: flex;
-    flex-direction: column;
-}
-
-/* RENAME */
-.pa {
-    padding: 5vh 5vw;
-    background-color: #3882F6;
-    border-radius: 12px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
-/* RENAME */
-.pb {
-    color: #1F2937;
-    text-align: center;
 }
 
 section {
@@ -117,6 +94,29 @@ header {
     align-items: center;
     justify-content: flex-end;
     gap: 16px;
+    box-shadow: 0 1px 3px 1px #151c25;
+    position: relative;
+}
+
+.card {
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px 1px #E5E7EB;
+}
+
+.card p {
+    color: #1F2937;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.action {
+    padding: 5vh 5vw;
+    background-color: #3882F6;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 footer {
@@ -147,8 +147,7 @@ button.border {
 .box {
     min-height: 100px;
     aspect-ratio: 1 / 1;
-    border: 3px solid #3882F6;
+    border: 4px solid #3882F6;
     border-radius: 12px;
-    margin-bottom: 8px;
 }
 
