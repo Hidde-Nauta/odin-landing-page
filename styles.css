@@ -4,6 +4,15 @@
 
 body {
     margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+button {
+    all: unset;
+}
+
+a {
+    text-decoration: none;
 }
 
 .bg-navy {
@@ -12,6 +21,40 @@ body {
 
 .bg-gray {
     background-color:#E5E7EB;
+}
+
+.text-navy {
+    color: #1F2937;
+}
+
+.text-white {
+    color: #F9FAF8;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+p, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .flex {
