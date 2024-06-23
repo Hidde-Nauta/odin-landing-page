@@ -11,54 +11,60 @@
 </head>
 <body>
     <header class="bg-navy">
-        <h3 class="text-white">Header Logo</h3>
+        <h3 id="logo">Header Logo</h3>
         <a href="#">header link one</a>
         <a href="#">header link two</a>
         <a href="#">header link three</a>
     </header>
     <main>
         <section class="bg-navy flex">
-            <div>
-                <h1 class="text-white">This website is awesome</h1>
+            <div class="grow">
+                <h1>This website is awesome</h1>
                 <p>This website has some subtext that goed here under the main title. It's a smaller font and the color is lower contrast</p>
-                <button class="text-white">Sign up</button>
+                <button>Sign up</button>
             </div>
-            <div>this is a placeholder for an image</div>
+            <div class="placeholder bg-gray grow">this is a placeholder for an image</div>
         </section>
         <section>
-            <h2 class="text-navy">Some random information.</h2>
-            <div class="flex text-gray">
-                <div>
-                    <div></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div>
-                    <div></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div>
-                    <div></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div>
-                    <div></div>
-                    <p>this is some subtext under an illustration or image</p>
+            <div class="p">
+                <h2>Some random information.</h2>
+                <div class="flex">
+                    <div>
+                        <div class="box"></div>
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
+                    <div>
+                        <div class="box"></div>
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
+                    <div>
+                        <div class="box"></div>
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
+                    <div>
+                        <div class="box"></div>
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="bg-gray text-navy">
-            <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that is looks nice.</p>
-            <p>-Thor, God of Thunder</p>
+        <section class="bg-gray">
+            <div class="p">
+                <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that is looks nice.</p>
+                <p>-Thor, God of Thunder</p>
+            </div>
         </section>
         <section>
-            <div>
-                <h3 class="text-white">Call to action! It's time!</h3>
-                <p class="text-gray">Sign up for our product by clicking that button right over there!</p>
+            <div class="pa">
+                <div>
+                    <h3>Call to action! It's time!</h3>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <button>Sign up</button>
             </div>
-            <button class="text-white">Sign up</button>
         </section>
     </main>
-    <footer class="bg-navy text-gray">
+    <footer class="bg-navy">
         <p>Copyright &copy; The Odin Project 2021</p>
     </footer>
 </body>
